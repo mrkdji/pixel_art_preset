@@ -49,9 +49,6 @@ func setup_option_button(options, option_button, setting_name):
 	option_button.select(option)
 
 
-# display/window/stretch/scale_mode fractional integer
-#display/window/stretch/mode disabled canvas_items viewport
-
 func _on_apply_pressed():
 	var tile_size = tile_size_spin_box.value
 	var width_in_tiles = width_in_tiles_spin_box.value
